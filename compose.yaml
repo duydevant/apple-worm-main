@@ -1,0 +1,17 @@
+name: apple-worm
+services:
+  game:
+    image: apple-worm:latest
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${APP_PORT:-18770}:8080"
+    environment:
+      SITE_URL: ${SITE_URL:-https://apple-worm.antfootage.net}
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"

@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-26T08:22:57.139Z",
+  "standaloneDocker": "healthy",
+  "portal": "http://localhost:18771",
+  "checks": [
+    "landing metadata in head",
+    "Open Graph image",
+    "sitemap domain",
+    "mobile has no horizontal overflow",
+    "portal game page",
+    "cross-origin iframe using production URL mapped to local Docker",
+    "canvas renders",
+    "Play + level 1 + ArrowRight",
+    "bundled portal embed renders without nav/footer"
+  ],
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "limitation": "Production DNS/TLS not deployed. Production hostname mapped to local container during browser test. Not all game levels tested."
+}

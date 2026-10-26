@@ -1,0 +1,15 @@
+{
+  "testedAt": "2026-10-26T08:06:02.343Z",
+  "url": "http://localhost:18766/",
+  "canvasCount": 1,
+  "errors": [],
+  "external": [],
+  "bad": [],
+  "steps": [
+    "main menu",
+    "Play",
+    "level 1",
+    "ArrowRight"
+  ],
+  "scope": "Browser external requests blocked; all game files already cached locally. Other levels not tested."
+}

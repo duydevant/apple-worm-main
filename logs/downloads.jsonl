@@ -1,0 +1,22 @@
+{"time":"2026-10-26T08:02:45.332Z","event":"nginx-404","uri":"/__remote/game-cdn.poki.com/scripts/v2/poki-sdk.js"}
+{"time":"2026-10-26T08:02:45.354Z","event":"nginx-404","uri":"/js/loader.js"}
+{"time":"2026-10-26T08:02:45.553Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/js/loader.js","status":200,"bytes":6286,"path":"js\\loader.js"}
+{"time":"2026-10-26T08:02:45.709Z","url":"https://game-cdn.poki.com/scripts/v2/poki-sdk.js","status":200,"bytes":6686,"path":"__remote\\game-cdn.poki.com\\scripts\\v2\\poki-sdk.js"}
+{"time":"2026-10-26T08:02:45.749Z","event":"nginx-404","uri":"/assets/todo.jpg"}
+{"time":"2026-10-26T08:02:45.924Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/todo.jpg","status":200,"bytes":8576,"path":"assets\\todo.jpg"}
+{"time":"2026-10-26T08:02:46.342Z","event":"nginx-404","uri":"/favicon.ico"}
+{"time":"2026-10-26T08:02:46.737Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/favicon.ico","status":"404","error":"curl: (22) The requested URL returned error: 404"}
+{"time":"2026-10-26T08:02:47.798Z","event":"nginx-404","uri":"/js/Main.js"}
+{"time":"2026-10-26T08:02:47.811Z","event":"nginx-404","uri":"/assets/fonts.swf"}
+{"time":"2026-10-26T08:02:47.822Z","event":"nginx-404","uri":"/assets/apple-worm-18130bbad-Unlocked-ScreenResize.swf"}
+{"time":"2026-10-26T08:02:47.974Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/fonts.swf","status":200,"bytes":30506,"path":"assets\\fonts.swf"}
+{"time":"2026-10-26T08:02:48.235Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/js/Main.js","status":200,"bytes":2477936,"path":"js\\Main.js"}
+{"time":"2026-10-26T08:02:48.281Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/apple-worm-18130bbad-Unlocked-ScreenResize.swf","status":200,"bytes":4427222,"path":"assets\\apple-worm-18130bbad-Unlocked-ScreenResize.swf"}
+{"time":"2026-10-26T08:02:48.906Z","event":"nginx-404","uri":"/assets/builtins/builtin.abc"}
+{"time":"2026-10-26T08:02:48.921Z","event":"nginx-404","uri":"/assets/builtins/playerglobal.abcs"}
+{"time":"2026-10-26T08:02:48.933Z","event":"nginx-404","uri":"/assets/builtins/playerglobal.json"}
+{"time":"2026-10-26T08:02:48.947Z","event":"nginx-404","uri":"/assets/builtins/avmplus.abc"}
+{"time":"2026-10-26T08:02:49.064Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/builtins/builtin.abc","status":200,"bytes":21973,"path":"assets\\builtins\\builtin.abc"}
+{"time":"2026-10-26T08:02:49.121Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/builtins/avmplus.abc","status":200,"bytes":520,"path":"assets\\builtins\\avmplus.abc"}
+{"time":"2026-10-26T08:02:49.129Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/builtins/playerglobal.json","status":200,"bytes":51650,"path":"assets\\builtins\\playerglobal.json"}
+{"time":"2026-10-26T08:02:49.198Z","url":"https://9212eedf-92d3-409f-9469-a6f67a2d1870.gdn.poki.com/b2e08cba-a56c-44ae-900f-58c7f6f2f63b/assets/builtins/playerglobal.abcs","status":200,"bytes":183917,"path":"assets\\builtins\\playerglobal.abcs"}
