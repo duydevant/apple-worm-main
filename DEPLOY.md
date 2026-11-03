@@ -4,11 +4,12 @@ Trong thư mục D:\VQD\apple-warm-main chạy:
 
     docker compose up -d --build
 
-Mở http://localhost:18770/games/apple-worm để kiểm tra. Production dùng https://apple-worm.antfootage.net/games/apple-worm.
+Mở http://localhost:18770/ để kiểm tra. Production dùng https://apple-worm.antfootage.net/.
 Domain chỉ hoạt động sau khi trỏ DNS A/AAAA về server và cấu hình HTTPS reverse proxy. Mẫu Caddy ở deploy/Caddyfile chạy trên host. Nếu dùng proxy trong Docker, đặt cùng Docker network và proxy tới game:8080 thay cho 127.0.0.1.
 
 Routes:
-- /games/apple-worm: landing page SEO có ảnh trên header, hướng dẫn, khung game và mã nhúng.
+- /: mở thẳng game toàn màn hình (SEO meta trong head, không landing page).
+- /games/apple-worm: chuyển hướng 301 về /.
 - /embed/apple-worm: game tràn khung, cho phép iframe từ các domain khác; noindex.
 - /seo/apple-worm-og.jpg: ảnh chia sẻ 1200x630.
 - /robots.txt, /sitemap.xml, /healthz.
